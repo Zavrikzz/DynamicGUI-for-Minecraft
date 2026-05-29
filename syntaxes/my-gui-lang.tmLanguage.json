@@ -1,0 +1,10 @@
+{
+  "scopeName": "source.mygui",
+  "patterns": [
+    { "name": "keyword.control", "match": "\\b(loop|if|else|wait)\\b" },
+    { "name": "variable.parameter", "match": "\\{.*?\\}" },
+    { "name": "entity.name.function", "match": "\\b(rect)\\b" }
+  ],
+  "repository": {},
+  "fileTypes": ["gui"]
+}
